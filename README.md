@@ -1,6 +1,7 @@
-# Oran's corner in the www
+# Katharina's corner in the www
 
-http://tnbuig.github.io/
+http://katharinaknoll.github.io/
+forked from tnbuig/tnbuig.github.io
 
 ## Jekyll
 
