@@ -1,9 +1,9 @@
 #-------------------------------
 # General Site Settings
 
-title: Oran Gerbovski
-email: Oran.Gerbo@gmail.com
-description: "Programmer // Traveler // Human"
+title: Katharina Knoll
+email: info@katharina.yoga
+description: "Yoga // Meditation"
 
 # NOTE: The Logo and Background image are defined in the all.sass document.
 
@@ -18,9 +18,9 @@ menu:
 
 # NOTE: Providing SEO information will make this website more searchable on the internet.
 seo:
-  description: 'Oran Gerbovski Blog Devloper C#'
-  rel-author: 'https://www.linkedin.com/in/orangerbovski'
-  rel-publisher: 'https://plus.google.com/+tnbuig'
+  description: 'Katharina Knoll Yoga Teacher Berlin'
+  rel-author: 'https://www.facebook.com/katharinayoga-126562478063025'
+  rel-publisher: 'https://www.instagram.com/katharina.yoga/'
 
 
 #-------------------------------
@@ -100,10 +100,8 @@ trips:
 # Contact Section
 
 social:
-- {icon: 'facebook', link: 'https://www.facebook.com/oran.garbovski'}
-- {icon: 'github', link: 'https://github.com/tnbuig'}
-- {icon: 'couchsurfing', link: 'https://www.couchsurfing.com/people/oran_grabovski'}
-- {icon: 'youtube', link: 'https://www.youtube.com/user/tnbuig'}
-- {icon: 'linkedin', link: 'https://www.linkedin.com/in/orangerbovski'}
+- {icon: 'facebook', link: 'https://www.facebook.com/katharinayoga-126562478063025/'}
+- {icon: 'instagram', link: 'https://www.instagram.com/katharina.yoga/'}
+- {icon: 'xing', link: 'https://www.xing.com/profile/Katharina_Knoll13'}
 
 # social network icons available: 'twitter' / 'facebook' / 'github' / 'pinterest' 'google-plus' / 'linkedin' / 'youtube' / 'instagram' / 'dribbble' / 'behance' / 'soundcloud' / 'vine'
