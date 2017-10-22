@@ -1,106 +1,113 @@
-#-------------------------------
-# General Site Settings
-
-title: Katharina Knoll
-email: info@katharina.yoga
+--- 
+blurb: "**Just where you are - that’s the place to start. Pema Chödrön** Mein erster Kontakt zu Yoga entstand während des Studiums im Jahr 2010. Das befreiende Körpergefühl und der ruhige Geist nach den ersten Klassen ließen keinen Zweifel, dass dies der Beginn einer längeren Reise werden sollte, die 2016 zum Beginn einer eigenen Yogalehrerausbildung führte. Mit den ersten Asanas fand auch das Thema Bewusstsein immer mehr Bedeutung in meinem Leben, so dass neben der täglichen Meditationspraxis (Vipassana) auch Workshops und Fortbildungen zu Atmentechniken, Thai Massage, buddhistischer Philosophie usw. meinen Weg begleiteten. Ich unterrichte Power Vinyasa Klassen mit abwechslungsreichen, kraftvollen Asanas auf der einen Seite und Übung in Präsenz, bewusstem Atem und einer wachen Beziehung zu den Bedürfnissen des eigenen Körpers auf der anderen Seite. entspannende Yin Yoga Klassen Achtsamkeitsmeditation\n"
 description: "Yoga // Meditation"
-
-# NOTE: The Logo and Background image are defined in the all.sass document.
-
-menu:
-- {name: About Me, url: '#about-me'}
-- {name: Programmer, url: '#projects'}
-- {name: Travel, url: '#travel'}
-- {name: Contact, url: '#contact'}
-
-#-------------------------------
-# SEO Section
-
-# NOTE: Providing SEO information will make this website more searchable on the internet.
-seo:
-  description: 'Katharina Knoll Yoga Teacher Berlin'
-  rel-author: 'https://www.facebook.com/katharinayoga-126562478063025'
-  rel-publisher: 'https://www.instagram.com/katharina.yoga/'
-
-
-#-------------------------------
-# About Section
-
-# NOTE: The avatar is defined in the all.sass document.
-
-blurb:>**Just where you are - that’s the place to start. - Pema Chödrön** Mein erster Kontakt zu Yoga entstand während des Studiums im Jahr 2010. Das befreiende Körpergefühl und der ruhige Geist nach den ersten Klassen ließen keinen Zweifel, dass dies der Beginn einer längeren Reise werden sollte, die 2016 zum Beginn einer eigenen Yogalehrerausbildung führte.
-Mit den ersten Asanas fand auch das Thema Bewusstsein immer mehr Bedeutung in meinem Leben, so dass neben der täglichen Meditationspraxis (Vipassana) auch Workshops und Fortbildungen zu Atmentechniken, Thai Massage, buddhistischer Philosophie usw. meinen Weg begleiteten.
-Ich unterrichte
-Power Vinyasa Klassen mit abwechslungsreichen, kraftvollen Asanas auf der einen Seite und Übung in Präsenz, bewusstem Atem und einer wachen Beziehung zu den Bedürfnissen des eigenen Körpers auf der anderen Seite. 
-entspannende Yin Yoga Klassen
-Achtsamkeitsmeditation
-
-
-
-skills:
-# - {name: Team Work, value: '8'}
-# - {name: Organization, value: '6'}
-# - {name: Learning, value: '6'}
-# - {name: Curiosity, value: '8'}
-# - {name: Planning, value: '7'}
-# - {name: Refactoring, value: '5'}
-# - {name: Adaptability, value: '7'}
-# - {name: Programming, value: '6'}
-
-#-------------------------------
-# Projects Section
-
-projects:
-- {avatar: 'face-oded.jpg',
-  name: 'Oded Zicherman',
-  title: 'R&D Team leader at Verint systems - Israel',
-  quote: '<p><strong>Oran worked under my direct supervision,</strong> in a team that developed of a large scale information system, and was involved both in server and client side development. Oran has excellent technical skills and social skills, and he was a leading team member, both technically and socially. He is extremely diligent and reliable, and willing to work hard on any task that is assigned to him. Oran can work independently and he always follows through to ensure that the job gets done on the best side. Oran is a fast learner and he is able to adopt new technologies very quickly.</p>',
-  logo: 'logo1.png'}
-- {avatar: 'face-abhishek.jpg',
-  name: 'Abhishek Joshi',
-  title: 'Senior Software Engineer at ION Trading',
-  quote: '<p><strong>It was pleasure working with Oran,</strong> he impressed me right from the time I interviewed him for our team. He possesses good technical skills and have very good attitude towards learning new things; he is hard working and always ready for new challenges. His fondness for processes and following best practices is commendable and infectious. I have no doubt that he will be great asset for any team.</p>',
-  logo: 'logo5.png'}
-- {avatar: 'face-uri.jpg',
-  name: 'Uri Stemmer',
-  title: 'Lecturer at Ben Gurion University',
-  quote: '<p><strong>I met Oran during our BSc studies at the department of electrical and computer engineering</strong> of Ben-Gurion University of the Negev, where we have worked together on various projects. Teaming up with Oran was one of the best choices I made throughout those studies. I can definitely characterize Oran as a serious, responsible, hard-working, well organized, team player, filled with curiosity to study new topics, and capable of managing (in spite of difficulty) complex problems. I have no doubt that Oran will excel in all of his future projects.</p>',
-  logo: 'logo2.png'}
-- {avatar: 'face-eliran.jpg',
-  name: 'Eliran Cohen',
-  title: 'Quality Air Duct Cleaning',
-  quote: '<p><strong>In my work I meet and work with many freelancers</strong> and after working with Oran I can say that he is a skilled person that not only can operate fast but can learn fast new things as well. I gave him a task with minimum information and he completed it faster than I expected and he did it marvelously. During his work, and I assume without completely understanding, Oran thought me a "trick" that I’ll use forever and that just shows how fast and efficiently he works. I’d highly recommend Oran based on his personal skills and high Integrity. I hope to keep cooperating with him in the future.</p>',
-  logo: 'logo3.png'}
-- {avatar: 'face-eugene.jpg',
-  name: 'Eugene Friger',
-  title: 'Synerion Systems Ltd',
-  quote: '<p><strong>Oran and Me worked together in the University for one year</strong> on our final project. A sharp, bright, professional partner with varied skills. Working with Oran was a continues positive learning experience. I would definitely love to have Oran as my colleague/partner in the future.</p>',
-  logo: 'logo4.png'}
-
-#-------------------------------
-# Travel Section
-
-trips:
-- {name: Israel, folder: 'trip-1', file: 'travel/trip-1.html'}
-- {name: Netherlands, folder: 'trip-2', file: 'travel/trip-2.html'}
-- {name: Bulgaria, folder: 'trip-3', file: 'travel/trip-3.html'}
-- {name: Germany, folder: 'trip-4', file: 'travel/trip-4.html'}
-- {name: Slovakia, folder: 'trip-5', file: 'travel/trip-5.html'}
-- {name: India, folder: 'trip-6', file: 'travel/trip-6.html'}
-- {name: U.S.A, folder: 'trip-7', file: 'travel/trip-7.html'}
-- {name: Mongolia, folder: 'trip-8', file: 'travel/trip-8.html'}
-- {name: Japan, folder: 'trip-9', file: 'travel/trip-9.html'}
-- {name: Thailand, folder: 'trip-10', file: 'travel/trip-10.html'}
-- {name: Hungary, folder: 'trip-11', file: 'travel/trip-11.html'}
-- {name: Czech Republic, folder: 'trip-12', file: 'travel/trip-12.html'}
-
-
-#-------------------------------
-# Contact Section
-
-social:
-- {icon: 'facebook', link: 'https://www.facebook.com/katharinayoga-126562478063025/'}
-- {icon: 'instagram', link: 'https://www.instagram.com/katharina.yoga/'}
-- {icon: 'xing', link: 'https://www.xing.com/profile/Katharina_Knoll13'}
-
-# social network icons available: 'twitter' / 'facebook' / 'github' / 'pinterest' 'google-plus' / 'linkedin' / 'youtube' / 'instagram' / 'dribbble' / 'behance' / 'soundcloud' / 'vine'
+email: info@katharina.yoga
+menu: 
+  - 
+    name: "About Me"
+    url: "#about-me"
+  - 
+    name: Programmer
+    url: "#projects"
+  - 
+    name: Travel
+    url: "#travel"
+  - 
+    name: Contact
+    url: "#contact"
+projects: 
+  - 
+    avatar: face-oded.jpg
+    logo: logo1.png
+    name: "Oded Zicherman"
+    quote: "<p><strong>Oran worked under my direct supervision,</strong> in a team that developed of a large scale information system, and was involved both in server and client side development. Oran has excellent technical skills and social skills, and he was a leading team member, both technically and socially. He is extremely diligent and reliable, and willing to work hard on any task that is assigned to him. Oran can work independently and he always follows through to ensure that the job gets done on the best side. Oran is a fast learner and he is able to adopt new technologies very quickly.</p>"
+    title: "R&D Team leader at Verint systems - Israel"
+  - 
+    avatar: face-abhishek.jpg
+    logo: logo5.png
+    name: "Abhishek Joshi"
+    quote: "<p><strong>It was pleasure working with Oran,</strong> he impressed me right from the time I interviewed him for our team. He possesses good technical skills and have very good attitude towards learning new things; he is hard working and always ready for new challenges. His fondness for processes and following best practices is commendable and infectious. I have no doubt that he will be great asset for any team.</p>"
+    title: "Senior Software Engineer at ION Trading"
+  - 
+    avatar: face-uri.jpg
+    logo: logo2.png
+    name: "Uri Stemmer"
+    quote: "<p><strong>I met Oran during our BSc studies at the department of electrical and computer engineering</strong> of Ben-Gurion University of the Negev, where we have worked together on various projects. Teaming up with Oran was one of the best choices I made throughout those studies. I can definitely characterize Oran as a serious, responsible, hard-working, well organized, team player, filled with curiosity to study new topics, and capable of managing (in spite of difficulty) complex problems. I have no doubt that Oran will excel in all of his future projects.</p>"
+    title: "Lecturer at Ben Gurion University"
+  - 
+    avatar: face-eliran.jpg
+    logo: logo3.png
+    name: "Eliran Cohen"
+    quote: "<p><strong>In my work I meet and work with many freelancers</strong> and after working with Oran I can say that he is a skilled person that not only can operate fast but can learn fast new things as well. I gave him a task with minimum information and he completed it faster than I expected and he did it marvelously. During his work, and I assume without completely understanding, Oran thought me a \"trick\" that I’ll use forever and that just shows how fast and efficiently he works. I’d highly recommend Oran based on his personal skills and high Integrity. I hope to keep cooperating with him in the future.</p>"
+    title: "Quality Air Duct Cleaning"
+  - 
+    avatar: face-eugene.jpg
+    logo: logo4.png
+    name: "Eugene Friger"
+    quote: "<p><strong>Oran and Me worked together in the University for one year</strong> on our final project. A sharp, bright, professional partner with varied skills. Working with Oran was a continues positive learning experience. I would definitely love to have Oran as my colleague/partner in the future.</p>"
+    title: "Synerion Systems Ltd"
+seo: 
+  description: "Katharina Knoll Yoga Teacher Berlin"
+  rel-author: "https://www.facebook.com/katharinayoga-126562478063025"
+  rel-publisher: "https://www.instagram.com/katharina.yoga/"
+skills: ~
+social: 
+  - 
+    icon: facebook
+    link: "https://www.facebook.com/katharinayoga-126562478063025/"
+  - 
+    icon: instagram
+    link: "https://www.instagram.com/katharina.yoga/"
+  - 
+    icon: xing
+    link: "https://www.xing.com/profile/Katharina_Knoll13"
+title: "Katharina Knoll"
+trips: 
+  - 
+    file: travel/trip-1.html
+    folder: trip-1
+    name: Israel
+  - 
+    file: travel/trip-2.html
+    folder: trip-2
+    name: Netherlands
+  - 
+    file: travel/trip-3.html
+    folder: trip-3
+    name: Bulgaria
+  - 
+    file: travel/trip-4.html
+    folder: trip-4
+    name: Germany
+  - 
+    file: travel/trip-5.html
+    folder: trip-5
+    name: Slovakia
+  - 
+    file: travel/trip-6.html
+    folder: trip-6
+    name: India
+  - 
+    file: travel/trip-7.html
+    folder: trip-7
+    name: U.S.A
+  - 
+    file: travel/trip-8.html
+    folder: trip-8
+    name: Mongolia
+  - 
+    file: travel/trip-9.html
+    folder: trip-9
+    name: Japan
+  - 
+    file: travel/trip-10.html
+    folder: trip-10
+    name: Thailand
+  - 
+    file: travel/trip-11.html
+    folder: trip-11
+    name: Hungary
+  - 
+    file: travel/trip-12.html
+    folder: trip-12
+    name: "Czech Republic"
